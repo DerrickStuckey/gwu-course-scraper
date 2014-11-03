@@ -1,0 +1,5 @@
+'import MySQLdb' failing because library libmysqlclient.18.dylib not loaded
+	-located in /usr/local/mysql/lib
+	-works if python is run from that directory though
+	-or if link to that lib added to python running directory (hack!)
+	
