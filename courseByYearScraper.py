@@ -128,17 +128,24 @@ def combineCourseCounts(subjects, df2013, df2014):
     #init list for each year
     countList2013 = []
     countList2014 = []
+    openCountList2013 = []
+    openCountList2014 = []
     
     #get full counts for each year
     counts2013 = getCourseCounts(df2013)
     counts2014 = getCourseCounts(df2014)
+    openCounts2013 = getCourseCounts(df2013[df2013.STATUS == 'OPEN'])
+    openCounts2014 = getCourseCounts(df2014[df2014.STATUS == 'OPEN'])
     
     for subj in subjects:
         countList2013.append(counts2013[subj])
         countList2014.append(counts2014[subj])
+        openCountList2013.append(openCounts2013[subj])
+        openCountList2014.append(openCounts2014[subj])
     
-    return pd.DataFrame({'subject': subjects, '2013 count': countList2013, 
-                         '2014 count': countList2014})
+    return pd.DataFrame( {'subject': subjects, '2013 total': countList2013, 
+                         '2014 total': countList2014, '2013 open': openCountList2013,
+                         '2014 open': openCountList2014} )
     
 ### END Function Declarations ###
 
@@ -164,9 +171,19 @@ termId2014 = "201401"
 courseDF2013 = readFromCSV(termId2013)
 courseDF2014 = readFromCSV(termId2014)
 
-# Run Queries
+# Split dataframes into open, closed courses
+#openCourses2013 = courseDF2013[courseDF2013.STATUS == 'OPEN']
+#openCourses2014 = courseDF2014[courseDF2014.STATUS == 'OPEN']
+#notOpenCourses2013 = courseDF2013[courseDF2013.STATUS != 'OPEN']
+#notOpenCourses2014 = courseDF2014[courseDF2014.STATUS != 'OPEN']
+
+# Find the top 10 subjects by course count for 2013
 topSubjs2013 = getTop10Subjects(courseDF2013)
 
+# Generate a dataframe with counts for each year for the chosen courses
 combinedCounts = combineCourseCounts(topSubjs2013, courseDF2013, courseDF2014)
+
+# Draw a graph
+
 
 ### END Program Execution ###
