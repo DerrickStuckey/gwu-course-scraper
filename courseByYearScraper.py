@@ -124,6 +124,21 @@ def getTop10Subjects(df):
     topSubjects = [str(x).strip() for x in rawSubjNames]
     return topSubjects
     
+def combineCourseCounts(subjects, df2013, df2014):
+    #init list for each year
+    countList2013 = []
+    countList2014 = []
+    
+    #get full counts for each year
+    counts2013 = getCourseCounts(df2013)
+    counts2014 = getCourseCounts(df2014)
+    
+    for subj in subjects:
+        countList2013.append(counts2013[subj])
+        countList2014.append(counts2014[subj])
+    
+    return pd.DataFrame({'subject': subjects, '2013 count': countList2013, 
+                         '2014 count': countList2014})
     
 ### END Function Declarations ###
 
@@ -152,5 +167,6 @@ courseDF2014 = readFromCSV(termId2014)
 # Run Queries
 topSubjs2013 = getTop10Subjects(courseDF2013)
 
+combinedCounts = combineCourseCounts(topSubjs2013, courseDF2013, courseDF2014)
 
 ### END Program Execution ###
