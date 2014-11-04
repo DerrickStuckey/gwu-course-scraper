@@ -8,6 +8,9 @@ from bs4 import BeautifulSoup
 import MySQLdb as myDB
 import pandas as pd
 
+### constants ###
+saveDir = "/Users/dstuckey/Desktop/GW/Programming for Analytics/HW 2"
+
 ### BEGIN Function Declarations ###
 
 # Function which scrapes all course data for a given term and subject
@@ -55,14 +58,14 @@ def saveToDB(df, termId, dbConnect):
 
 # Read DF from CSV
 def readFromCSV(termId):
-    df = pd.read_csv('/tmp/allCourses' + termId + '.csv')
+    df = pd.read_csv(saveDir + '/allCourses' + termId + '.csv')
     #clean up SUBJ column
     df.SUBJ = df.SUBJ.str.strip()
     return df
 
 # Function to save a dataframe to CSV
 def saveToCsv(df, termId):
-    df.to_csv('/tmp/allCourses' + termId + '.csv')
+    df.to_csv(saveDir + '/allCourses' + termId + '.csv')
 
 # Function to scrape all subject IDs for a given term
 def scrapeSubjectIds(termId):
@@ -112,7 +115,7 @@ def scrapeCourseData(termId):
     return courseDF
 
 def getCourseCounts(df):
-    return courseDF.groupby('SUBJ').COURSE.count()
+    return df.groupby('SUBJ').COURSE.count()
 
 def getTop10Subjects(df):
     counts = getCourseCounts(df)
@@ -120,6 +123,7 @@ def getTop10Subjects(df):
     rawSubjNames = counts[:10].index
     topSubjects = [str(x).strip() for x in rawSubjNames]
     return topSubjects
+    
     
 ### END Function Declarations ###
 
@@ -147,5 +151,6 @@ courseDF2014 = readFromCSV(termId2014)
 
 # Run Queries
 topSubjs2013 = getTop10Subjects(courseDF2013)
+
 
 ### END Program Execution ###
