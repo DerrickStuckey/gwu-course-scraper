@@ -14,9 +14,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-### constants ###
+### Program Variables ###
 #saveDir = "/Users/dstuckey/Desktop/GW/Programming for Analytics/HW 2"
 saveDir = "."
+mysql_user = "root"
+mysql_pass = ""
+mysql_db = "classwork"
 
 ### BEGIN Function Declarations ###
 
@@ -42,9 +45,9 @@ def getCourseList(termId, subject):
 
 def getDBConnect():
     return myDB.connect(host='localhost',
-                                user='root',
-                                passwd='',
-                                db='classwork')
+                                user=mysql_user,
+                                passwd=mysql_pass,
+                                db=mysql_db)
 
 # Function to save DataFrame to MySQL database
 def saveToDB(df, termId, dbConnect):
@@ -57,7 +60,7 @@ def saveToDB(df, termId, dbConnect):
 
 # Missing sqlalchemy.schema module
 def readFromDB(termId, dbConnect):
-    engine = create_engine('mysql+mysqldb://root:@localhost/classwork')
+    engine = create_engine('mysql+mysqldb://' + mysql_user + ':' + mysql_pass + '@localhost/' + mysql_db)
     
     return pd.read_sql_table('sp_' + termId, con=engine)
 
@@ -203,7 +206,7 @@ barHeight2013 = combinedCounts['2013 total']
 barHeight2014 = combinedCounts['2014 total']
 
 rects2013 = ax.bar(ind, barHeight2013, width, color='r')
-rects2014 = ax.bar(ind+width, barHeight2014, width, color='y')
+rects2014 = ax.bar(ind+width, barHeight2014, width, color='b')
 
 # add some text for labels, title and axes ticks
 ax.set_ylabel('Count')
@@ -211,7 +214,7 @@ ax.set_title('Course Counts by Subject and Year')
 ax.set_xticks(ind+width)
 ax.set_xticklabels( combinedCounts['subject'] )
 
-ax.legend( (rects2013[0], rects2014[0]), ('2013', '2014') )
+ax.legend( (rects2013[0], rects2014[0]), ('Spring 2013', 'Spring 2014') )
 
 plt.show()
 ### End Graph ###
