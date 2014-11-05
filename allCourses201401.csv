@@ -88,8 +88,8 @@
 77,SMTH 114,AmericanArch:1860 to Present,3.00,94282,MW12:45PM - 02:00PM,01/13/14 - 04/28/14,"Longstreth, R",80,OPEN,"AH
 	"
 78,PHIL 109,Women in the United States,3.00,93338,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,AMST
-79,PHIL 109,Women in US from 1877-Present,3.00,93383,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,HIST
-80,PHIL 109,"Women in the US, 1877-Present",3.00,93272,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,WSTU
+79,PHIL 109,"Women in the US, 1877-Present",3.00,93272,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,WSTU
+80,PHIL 109,Women in US from 1877-Present,3.00,93383,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,HIST
 81,OM 305,Critiquing Culture,3.00,94290,MW03:45PM - 05:00PM,01/13/14 - 04/28/14,"Brian, K",10,OPEN,AMST
 82,OM 305,Examining America,3.00,94289,MW11:10AM - 12:25PM,01/13/14 - 04/28/14,"Osman, S",10,OPEN,AMST
 83,OM 305,American Fictions,3.00,96930,R03:30PM - 06:00PM,01/13/14 - 04/28/14,"Miller, J",10,OPEN,AMST
@@ -145,9 +145,9 @@
 132,COR 106,Anth ofGender:Cross Cult Persp,3.00,91476,MW09:35AM - 10:50AM,01/13/14 - 04/28/14,"Ahmad, A",80,CLOSED,ANTH
 133,COR 106,Anth ofGender:Cross Cult Persp,3.00,91479,MW09:35AM - 10:50AM,01/13/14 - 04/28/14,"Ahmad, A",80,CLOSED,WSTU
 134,PHIL B120,Intro to Ethnomusicology,3.00,94402,TR11:10AM - 12:25PM,01/13/14 - 04/28/14,"Lornell, C",80,CLOSED,ANTH
-135,PHIL B120,Intro to Ethnomusicology,3.00,91879,TR11:10AM - 12:25PM,01/13/14 - 04/28/14,"Lornell, C",80,CLOSED,"MUS
+135,PHIL B120,Intro to Ethnomusicology,3.00,92821,TR11:10AM - 12:25PM,01/13/14 - 04/28/14,"Lornell, C",80,CLOSED,"MUS
 "
-136,PHIL B120,Intro to Ethnomusicology,3.00,92821,TR11:10AM - 12:25PM,01/13/14 - 04/28/14,"Lornell, C",80,CLOSED,"MUS
+136,PHIL B120,Intro to Ethnomusicology,3.00,91879,TR11:10AM - 12:25PM,01/13/14 - 04/28/14,"Lornell, C",80,CLOSED,"MUS
 "
 137,SEE DEPT,Forensic Anthropology Lab,2.00,90709,M05:10PM - 07:00PM,01/13/14 - 04/28/14,"Ubelaker, D",10,OPEN,ANTH
 138,SEE DEPT,Forensic Anthropology Lab,2.00,91998,T05:10PM - 07:00PM,01/13/14 - 04/28/14,"Ubelaker, D",11,CLOSED,ANTH
@@ -782,8 +782,8 @@
 698,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94009,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Neverson, P; Pasfield, N; Gross, L; Beck, S",12,OPEN,CPED
 699,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94008,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Beck, S; Elbeze, B; Rosenbaum, S; Neverson, P; Tomback, J",11,OPEN,CPED
 700,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94008,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Beck, S; Elbeze, B; Rosenbaum, S; Neverson, P; Tomback, J",11,OPEN,CPED
-701,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94009,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Neverson, P; Pasfield, N; Gross, L; Beck, S",12,OPEN,CPED
-702,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94007,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Balis, S; Neverson, P; Beck, S; Elbeze, B",10,OPEN,CPED
+701,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94007,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Balis, S; Neverson, P; Beck, S; Elbeze, B",10,OPEN,CPED
+702,PHIL B152,Internshp/Elementary Education,3.00 TO   6.00,94009,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Neverson, P; Pasfield, N; Gross, L; Beck, S",12,OPEN,CPED
 703,DUQUES 251,Statistics for Management,3.00,93911,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Khamooshi, H",10,OPEN,DNSC
 704,MON 353,Computational Optimization,3.00,96559,M12:45PM - 03:15PM,01/13/14 - 04/28/14,"Lejeune, M",10,OPEN,DNSC
 705,DUQUES 350,Forecasting for Analytics,1.50,96560,T07:10PM - 09:40PM,01/13/14 - 03/08/14,"Yenigun, D",10,OPEN,DNSC
@@ -1142,11 +1142,11 @@
 981,MITCHL B102,Laboratory,0.00,94301,T05:30PM - 07:20PM,01/13/14 - 04/28/14,"Miller, T",31,CLOSED,EXSC
 982,MITCHL B102,Laboratory,0.00,94302,W08:00AM - 09:50AM,01/13/14 - 04/28/14,"Miller, T",32,OPEN,EXSC
 983,MITCHL B102,Laboratory,0.00,94303,W10:00AM - 11:50AM,01/13/14 - 04/28/14,"Miller, T",33,CLOSED,EXSC
-984,2033 K 1,Nutrition Sciences II,3.00,95101,M03:30PM - 06:00PM,01/13/14 - 04/28/14,"Sylvetsky, A",10,OPEN,EXSC
+984,2033 K 1,Nutrition Sciences II,3.00,95101,M03:30PM - 06:00PM,01/13/14 - 04/28/14,"Meni, A",10,OPEN,EXSC
 985,,Exercise and Health Psychology,3.00,92039,,01/13/14 - 04/28/14,,10,CANCELLED,EXSC
 986,2033 K 1,Exercise and Sport Psychology,3.00,97159,MW11:10AM - 12:25PM,01/13/14 - 04/28/14,"Bowes, N",10,OPEN,EXSC
 987,2033 K 1,Sport Psychology,3.00,93970,MW09:35AM - 10:50AM,01/13/14 - 04/28/14,"Bowes, N",10,OPEN,EXSC
-988,2020 K 17,Basic Nutrition,3.00,92557,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Sylvetsky, A",10,OPEN,EXSC
+988,2020 K 17,Basic Nutrition,3.00,92557,T03:30PM - 06:00PM,01/13/14 - 04/28/14,"Meni, A",10,OPEN,EXSC
 989,2033 K 2,Basic Nutrition,3.00,97033,TR08:00AM - 09:15AM,01/13/14 - 04/28/14,"Mauney, A",11,OPEN,EXSC
 990,,Independent Study,3.00,90559,,01/13/14 - 04/28/14,"Westerman, B",10,OPEN,EXSC
 991,SEE DEPT,Internship,1.00 TO   9.00,90560,,01/13/14 - 04/28/14,"Dickman, A",10,OPEN,EXSC
@@ -1174,15 +1174,15 @@
 1013,DUQUES 155,Appl Fin Securities Analysis,3.00,98064,T11:10AM - 01:40PM,01/13/14 - 04/28/14,"Muralidhar, A",12,OPEN,FINA
 1014,1957 E 214,Real Estate Investment,3.00,95002,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Geurts, T",10,WAITLIST,FINA
 1015,PHIL 111,Real Estate Development Cases,3.00,97951,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
-1016,PHIL 111,Real Estate Development Cases,3.00,97952,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
-1017,PHIL 111,Real Estate Development Cases,3.00,95670,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",80,OPEN,FINA
-1018,PHIL 111,Real Estate Development Cases,3.00,96070,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",81,OPEN,FINA
+1016,PHIL 111,Real Estate Development Cases,3.00,95670,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",80,OPEN,FINA
+1017,PHIL 111,Real Estate Development Cases,3.00,96070,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",81,OPEN,FINA
+1018,PHIL 111,Real Estate Development Cases,3.00,97952,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
 1019,,Fund ofFinancialDecisionMaking,3.00,96505,,01/13/14 - 04/28/14,,80,CANCELLED,FINA
 1020,,Fund Financial Decision Making,3.00,96496,,01/13/14 - 04/28/14,,80,CANCELLED,ACCY
 1021,PHIL 111,Real Estate Development Cases,3.00,96070,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",81,OPEN,FINA
-1022,PHIL 111,Real Estate Development Cases,3.00,97951,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
-1023,PHIL 111,Real Estate Development Cases,3.00,97952,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
-1024,PHIL 111,Real Estate Development Cases,3.00,95670,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",80,OPEN,FINA
+1022,PHIL 111,Real Estate Development Cases,3.00,95670,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",80,OPEN,FINA
+1023,PHIL 111,Real Estate Development Cases,3.00,97951,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
+1024,PHIL 111,Real Estate Development Cases,3.00,97952,W07:10PM - 09:40PM,01/13/14 - 04/28/14,"Geurts, T",60,OPEN,FINA
 1025,DUQUES 259,History of Finance,3.00,96033,TR12:45PM - 02:00PM,01/13/14 - 04/28/14,"Wilson, A",80,OPEN,FINA
 1026,DUQUES 259,History of Finance,3.00,97972,TR12:45PM - 02:00PM,01/13/14 - 04/28/14,"Wilson, A",80,OPEN,HIST
 1027,,Individual Research,1.00 TO  15.00,90213,,01/13/14 - 04/28/14,"Peyser, P",10,OPEN,FINA
@@ -1745,8 +1745,8 @@
 1538,2142 G CONF,Senior Thesis,3.00,93902,,01/13/14 - 04/28/14,"Weissman Joselit, J",10,OPEN,JSTD
 1539,,Independent Readings/Research,1.00 TO   3.00,98316,,01/13/14 - 04/28/14,"Weissman Joselit, J",10,OPEN,JSTD
 1540,2142 G CONF,Displaying Jewish Culture,3.00,96901,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,JSTD
-1541,2142 G CONF,Jewish Culture on Display,3.00,96899,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,MSTD
-1542,2142 G CONF,Jewish Culture on Display,3.00,96900,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,HIST
+1541,2142 G CONF,Jewish Culture on Display,3.00,96900,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,HIST
+1542,2142 G CONF,Jewish Culture on Display,3.00,96899,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,MSTD
 1543,2020 K 10,Beginning Korean II,4.00,90268,TR09:35AM - 10:50AM,01/13/14 - 04/28/14,"Pak, M",10,OPEN,"KOR
 "
 1544,2020 K 22,Drill,0.00,92143,MW11:10AM - 12:00PM,01/13/14 - 04/28/14,"Pak, M",30,OPEN,"KOR
@@ -2045,8 +2045,8 @@
 1774,,Advanced Reading and Research,ARR,92892,,01/13/14 - 04/28/14,"Lee, N",10,CLOSED,MMED
 1775,,Dissertation Research,3.00 TO  12.00,92893,,01/13/14 - 04/28/14,"Lee, N",10,OPEN,MMED
 1776,2142 G CONF,Jewish Culture on Display,3.00,96899,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,MSTD
-1777,2142 G CONF,Displaying Jewish Culture,3.00,96901,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,JSTD
-1778,2142 G CONF,Jewish Culture on Display,3.00,96900,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,HIST
+1777,2142 G CONF,Jewish Culture on Display,3.00,96900,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,HIST
+1778,2142 G CONF,Displaying Jewish Culture,3.00,96901,W05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weissman Joselit, J",80,OPEN,JSTD
 1779,PHIL 104,Class Piano for Beginners,1.00,90926,TR11:10AM - 12:00PM,01/13/14 - 04/28/14,"Dahlman, B",10,OPEN,"MUS
 "
 1780,SEE DEPT,Guitar Ensemble,1.00,92540,W06:15PM - 08:15PM,01/13/14 - 04/28/14,"Albertson, J; Duhagon Serrat, M",10,OPEN,"MUS
@@ -2889,8 +2889,8 @@
 2433,MON 251,Modern Jewish Women's History,3.00,96981,TR12:45PM - 02:00PM,01/13/14 - 04/28/14,"Strauss, L",84,OPEN,HIST
 2434,,Undergraduate Research,1.00 TO   3.00,91118,,01/13/14 - 04/28/14,"Moshenberg, D",10,OPEN,WSTU
 2435,PHIL 109,"Women in the US, 1877-Present",3.00,93272,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,WSTU
-2436,PHIL 109,Women in US from 1877-Present,3.00,93383,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,HIST
-2437,PHIL 109,Women in the United States,3.00,93338,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,AMST
+2436,PHIL 109,Women in the United States,3.00,93338,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,AMST
+2437,PHIL 109,Women in US from 1877-Present,3.00,93383,TR02:20PM - 03:35PM,01/13/14 - 04/28/14,"Harrison, C",80,OPEN,HIST
 2438,837 22 B02,Practicum in Women's Studies,3.00,90537,W06:10PM - 08:00PM,01/13/14 - 04/28/14,"Deitch, C",80,OPEN,WSTU
 2439,837 22 B02,Practicum in Women's Studies,3.00 TO   6.00,90539,W06:10PM - 08:00PM,01/13/14 - 04/28/14,"Deitch, C",80,OPEN,WSTU
 2440,PHIL 411,Feminist Ethics/Pol Implicatns,3.00,97087,T05:10PM - 07:00PM,01/13/14 - 04/28/14,"Weiss, G",80,OPEN,WSTU
